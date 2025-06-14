@@ -16,7 +16,7 @@ const privateKey = process.env.PRIVATE_KEY;
 const walletSigner = new ethers.Wallet(privateKey, provider);
 
 // Token kontrat adresi
-const tokenAddress = "0xa65f224d2C41cb4dD9317Ddd3992E37B11962B58";
+const tokenAddress = "0xac2b9032D17F11cEa5E0993F311cF63E772669dd";
 
 // ERC-20 ABI (sadece transfer fonksiyonu için)
 const abi = [
